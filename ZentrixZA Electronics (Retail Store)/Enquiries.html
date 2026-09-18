@@ -1,0 +1,317 @@
+<!doctype html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Enquiries | ZentrixZA Electronics</title>
+          <!--
+    ENQUIRIES PAGE
+    This page allows visitors to find contact information
+    and select the type of enquiry they want to make.
+-->
+
+<!-- Connects the page to the shared stylesheet -->
+          <link rel="stylesheet" href="CSS/StylingSheets.css">
+    </head>
+    <body>
+    
+    <body>
+
+<header class="topbar">
+
+    <div class="brand-box">
+
+        <img src="images/zae image15.jpg" style="width: 231px;height:200px;"
+             alt="ZentrixZA Electronics Logo">
+
+    </div>
+
+    <div class="site-title">
+         <h1><b><center>ZentrixZA ELECTRONICS</center></b></h1>
+        <p><b><center>More than Repairs, Honest Service</center></b></p>
+    </div>
+
+    <div class="top-icons">
+
+         <a href="Enquiries.html"
+           class="icon-link">
+            <h1>♧</h1>
+        </a>
+
+        <a href="Home.html"
+           class="icon-link">
+           <h1>⌂</h1>
+        </a>
+
+        <a href="AboutUS.html"
+           class="icon-link">
+            <h1>◉</h1>
+        </a>
+
+        <a href="Enquiries.html"
+           class="icon-link">
+            <h1>⚒</h1>
+        </a>
+
+    </div>
+
+</header>
+
+
+<aside class="sidebar">
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="Home.html">
+                    HOME
+                </a>
+            </li>
+
+            <li>
+                <a href="Products.html">
+                    PRODUCTS
+                </a>
+            </li>
+
+            <li>
+                <a href="Repairs.html">
+                    REPAIRS
+                </a>
+            </li>
+
+            <li>
+                <a href="ServicesOffered.html">
+                    SERVICES<br>OFFERED
+                </a>
+            </li>
+
+            <li>
+                <a href="AboutUS.html">
+                    ABOUT US
+                </a>
+            </li>
+
+            <li>
+                <a href="Enquiries.html"
+                   class="active">
+                    ENQUIRIES
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</aside>
+
+
+<main class="main-content">
+
+    <section class="page-heading">
+
+          <section class="content-panel">
+
+<!--
+    ENQUIRY INTRODUCTION
+    Provides instructions to visitors about contacting ZentrixZA.
+-->
+        <h1><b><center>
+            Enquiries Page
+        </center></b></h1>
+
+    <form class="form-card">
+
+        <h2 class="section-title"><b><center>
+
+            Customer Information
+
+        </b></center></h2>
+
+
+        <div class="form-group">
+
+            <label for="enquiry-type"><b><center>
+                Enquiry Type
+            </b></center></label>
+
+            <b><center><select id="enquiry-type"> </b></center>
+
+                <option>
+                    General Enquiry
+                </option>
+
+                <option>
+                    Product Information Enquiry
+                </option>
+
+                <option>
+                    Product Repair Request
+                </option>
+
+                <option>
+                    Purchase Request
+                </option>
+
+                <option>
+                    Financing Products
+                </option>
+
+            </select>
+
+        </div>
+<!--
+    ENQUIRY TYPE
+    The select element allows the user to choose
+    the type of enquiry they want to make.
+-->
+
+            <div class="form-group">
+
+          <label for="customer-name">
+                <b><center>Customer Name</b></center>
+            </label>
+
+             <b><center><input type="text"
+                   id="customer-name"></b></center>
+        </div>
+
+        <div class="form-group">
+
+            <label for="phone">
+                <b><center>Phone Number</b></center>
+            </label>
+
+            <b><center><input type="tel"
+                   id="phone"></b></center>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="email">
+                <b><center>Customer Email</b></center>
+            </label>
+
+            <b><center><input type="email"
+                   id="email"></b></center>
+
+        </div>
+
+        <div class="form-group">
+
+            <label>
+                <b><center>Preference of Communication</b></center>
+              </label>
+
+               <div class="radio-group">
+
+                 <label>
+                    <b><center><input type="radio"></b></center>
+                    <b><center>Email</b></center>
+                </label>
+
+                <label>
+                    <b><center><input type="radio"></b></center>
+                    <b><center>Phone</b></center>
+                </label>
+
+                <label>
+                    <b><center><input type="radio"></b></center>
+                    <b><center>SMS</b></center>
+                </label>
+
+                <label>
+                    <b><center><input type="radio"></b></center>
+                    <b><center>WhatsApp</b></center>
+                </label>
+
+                <label>
+                    <b><center><input type="radio"></b></center>
+                    <b><center></b></center>
+                </label>
+
+            </div>
+
+
+        <h2 class="section-title">
+
+            <b><center>Product Information</b></center>
+
+        </h2>
+
+
+        <div class="form-group">
+
+            <label for="product-name">
+                <b><center>Product Name</b></center>
+            </label>
+
+            <b><center><input type="text"
+                   id="product-name"></b></center>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="serial">
+                <b><center>Serial Number</b></center>
+            </label>
+
+            <b><center><input type="text"
+                   id="serial"></b></center>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="description">
+                <b><center>Product Description</b></center>
+            </label>
+
+            <b><center><textarea id="description"></textarea></b></center>
+
+        </div>
+
+
+        <b><center><button type="submit" 
+                class="btn btn-primary">
+
+             <b><center>Request Quotation</b></center>
+
+        </b></center></button>
+
+
+        <b><center><button type="reset"
+                class="btn btn-secondary">
+
+            Clear
+
+        </b></center></form></button>
+
+    </form>
+
+</main>
+
+
+<footer class="footer">
+
+    <p>
+        <strong>T&Cs Apply &copy;</strong>
+    </p>
+
+    <p>
+        &copy; (ST10519905) 2026 ZentrixZA Electronics.
+        All rights reserved.
+    </p>
+
+</footer>
+
+</body>
+
+</html>    
+        
+
