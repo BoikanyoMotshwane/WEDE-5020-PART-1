@@ -80,3 +80,24 @@ the user scrolls through the page.
 The navigation links are styled as buttons to make them
 easy for users to identify and select.
 */
+
+Creates the promotional cards displayed near the top
+of the Home page.
+
+CSS Grid is used to position the two offers side by side.
+*/
+
+/*
+The hero section is the main promotional area of the
+Home page.
+
+A linear gradient is used to combine the brown and grey
+brand colours.
+*/
+/*
+The table styles are used on pages such as Products,
+Repairs and Services Offered.
+
+They improve readability and maintain a consistent
+appearance across the website.
+*/
