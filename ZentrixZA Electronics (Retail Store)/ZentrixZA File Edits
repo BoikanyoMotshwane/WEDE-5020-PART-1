@@ -37,6 +37,24 @@ Another change made to the website is the viewing for the devices on scaling
         The main-content class connects this section to the CSS.
     -->
 
+This stylesheet contains the common design rules used
+throughout the ZentrixZA Electronics website.
+
+The stylesheet is linked to each HTML page using:
+
+<link rel="stylesheet" href="CSS/StylingSheets.css">
+
+Using one external stylesheet allows the webpages to
+share the same colours, layout, typography and components.
+*/
+
+/*
+The universal selector (*) applies these rules to all
+HTML elements.
+
+The reset removes default browser margins and padding.
+box-sizing: border-box makes element sizing easier to control.
+*/
       <!--
             TOP HEADER
             Displays the website name and additional interface icons.
