@@ -1,2 +1,43 @@
 Another change made to the website is the grammer and spelling on the html code as it is 
 Another change made to the website is the viewing for the devices on scaling 
+<!--
+        Links the Home page to the shared external CSS stylesheet.
+        The CSS file is located inside the CSS folder.
+        This allows the same styling to be used across the website.
+    -->
+<!--
+    WEBSITE NAVIGATION
+    Provides links to all major sections of the website.
+-->
+
+<!--
+        LEFT SIDEBAR
+        This section contains the main navigation menu.
+        The "sidebar" class connects this HTML section to
+        the .sidebar selector in StylingSheets.css.
+    -->
+
+  <!--
+            Website logo area.
+            The sidebar-logo class is used by CSS to control
+            the size, position, colour and appearance of the logo area.
+        -->
+
+          <!--
+            Main website navigation.
+            Each link directs the user to a different webpage.
+        -->
+                     <ul>
+
+            <!-- The active class identifies the current webpage -->
+
+    <!--
+        MAIN CONTENT
+        Contains the main information displayed on the Home page.
+        The main-content class connects this section to the CSS.
+    -->
+
+      <!--
+            TOP HEADER
+            Displays the website name and additional interface icons.
+        -->
