@@ -67,3 +67,16 @@ the website.
 Using variables makes it easier to change the website's
 colour scheme without editing every individual selector.
 */
+/*
+The sidebar creates the fixed navigation area on the
+left-hand side of the website.
+
+position: fixed keeps the navigation visible while
+the user scrolls through the page.
+*/
+
+/*
+
+The navigation links are styled as buttons to make them
+easy for users to identify and select.
+*/
