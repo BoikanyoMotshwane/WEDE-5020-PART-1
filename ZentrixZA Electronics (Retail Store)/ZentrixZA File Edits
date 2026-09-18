@@ -59,3 +59,11 @@ box-sizing: border-box makes element sizing easier to control.
             TOP HEADER
             Displays the website name and additional interface icons.
         -->
+
+/*
+CSS variables store the main colours used throughout
+the website.
+
+Using variables makes it easier to change the website's
+colour scheme without editing every individual selector.
+*/
