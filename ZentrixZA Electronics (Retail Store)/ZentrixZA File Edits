@@ -106,3 +106,10 @@ appearance across the website.
 Form classes control the appearance and spacing of
 customer enquiry forms.
 */
+/*
+
+The media query changes the website layout when the
+screen becomes smaller.
+
+This improves usability on tablets and mobile devices.
+*/
