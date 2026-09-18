@@ -118,10 +118,11 @@ About US: (AboutUS.html)
 Products: (Products.html)
 Repairs:  (Repairs.html)
 Services Offered: (ServicesOffered.html)
+*New W
 
 Changelog: 
 
-Currently No changelogs have been made as of yet
+The website has been updated to the brand new, upscaled and to a more open flat design that is fresh and evolutionary to the website 
 
 References 
 
@@ -137,11 +138,65 @@ Back to bugherd.com, 2023, The Art of Website Project Management: A Comprehensiv
 
 W3Schools, 2026, HTML Responsive Web Design,[online], Available at:<https://www.w3schools.com/html/html_responsive.asp> [Accessed on 5 August 2026]
 
+Part 2 
 
+Part 1 Improvements (Part 2)
 
+Changelog: 
 
+Updated Information 
 
+1.	Testing of the website on browser
+   
+Firefox – Does work 
 
+Google Chrome – Does work 
 
+Microsoft Edge – Does Work
 
+2.	On different devices
+   
+Smartphone Layout – Does Not work Properly
 
+Tablet Layout – Does work 
+
+Laptop Layout – Does work
+
+Added Features on the Website 
+
+Design and the User Experience: 
+The Overall design of the website must have a professional modern look that will give an attention grabbing to the end consumer as a whole as the brand will have to be bold and open to the public about the service they provide in the electronics industry.
+
+Colour: Brown:
+
+Hex code #BB8D6F and Grey: Hex Code #686A6
+
+Typography:
+
+Calibri, Roboto or Open Sans 
+  
+Layout/Design:
+
+Open and Flat Design (Minimal Style that has a professional colours, clean typography while using the 2D Shapes with flowing animations that will   encompass shadows and gradients with simple UI elements like flat buttons and geometric shapes.
+
+User Experience Considerations:
+
+Side bar Navigation in accordance to the Flat Design and to adapt to the colour scheme.
+
+References
+
+For CSS and HTML (UPDATED) 
+
+Mozilla Developer Network (MDN) (2026a) <link> HTML external resource link element. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/link (Accessed: 18 September 2026).
+
+Mozilla Developer Network (MDN) (2026b) Getting started with CSS. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started (Accessed: 18 September 2026).
+
+Mozilla Developer Network (MDN) (2026c) Class selectors. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Class_selectors (Accessed: 18 September 2026).
+
+Mozilla Developer Network (MDN) (2026d) CSS box model. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model (Accessed: 18 September 2026).
+
+Mozilla Developer Network (MDN) (2026e) CSS flexible box layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout (Accessed: 18 September 2026).
+
+Mozilla Developer Network (MDN) (2026f) HTML elements reference. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements (Accessed: 18 September 2026).
+
+World Wide Web Consortium (W3C) (2026a) Web standards. Available at: https://www.w3.org/standards/ (Accessed: 18 September 2026).
