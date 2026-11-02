@@ -200,3 +200,121 @@ Mozilla Developer Network (MDN) (2026e) CSS flexible box layout. Available at: h
 Mozilla Developer Network (MDN) (2026f) HTML elements reference. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements (Accessed: 18 September 2026).
 
 World Wide Web Consortium (W3C) (2026a) Web standards. Available at: https://www.w3.org/standards/ (Accessed: 18 September 2026).
+
+Part 3 
+
+Part 2 Improvements (Part 3)
+
+Changelog: 
+
+Updated Information 
+
+Web Development Part 2 Improvements
+
+JavaScript 
+
+New changes that are made:
+
+•	Added the transitions to the webpages 
+
+•	Added a promotional card
+
+•	Added a search functionality to filter out the products that are being tailored to their needs 
+
+•	Added a button that will be needed for the users to see the company history and its origins 
+
+•	Added a map to the company for the people to see the company shop and the street view 
+
+•	On the enquiries page the form validation is in full operation and does function 
+
+Testing of the website on browser
+   
+Firefox – Does work 
+
+Google Chrome – Does work 
+
+Microsoft Edge – Does Work
+
+On different devices
+   
+Smartphone Layout – Does Not work Properly
+
+Tablet Layout – Does work 
+
+Laptop Layout – Does work
+
+Added Features on the Website 
+
+
+Technical Requirements:
+The technical requirements needed for the hosting the website it should be:
+Short and easy to remember.
+Connected to the chosen web hosting service.
+Registered with an accredited domain registrar.
+ Chosen Name - zentrixza.co.za
+	Programming Language Used (Front-End)
+CSS3
+JavaScript
+HTML5
+	Frame Works
+Bootstrap five 
+	Hosting
+Utilising a shared type based web-hosting site with a .co.za do domain, SSL Certificate, including daily backups also include the Uptime to ensure the website remains accessible and include the SSD storage for a faster load-times when accessing the website. 
+The Website has been deployed with the following website 
+
+https://majestic-basbousa-6aabdc.netlify.app/
+
+Technologies used
+
+The main technologies used to build the website were:
+
+Technology
+Purpose
+HTML5
+Structure and content of the website
+CSS3
+Layout, colours, typography, responsiveness and visual design
+JavaScript
+Dynamic interaction and validation
+jQuery
+Optional DOM manipulation and event handling
+Leaflet
+Interactive map functionality
+Formspree or form backend
+Enquiry form submission
+XML
+Sitemap structure
+robots.txt
+Search-engine crawler instructions
+Apache .htaccess
+HTTPS redirection, caching and security headers
+HTML provides the structure of the pages, CSS controls the presentation, and JavaScript adds interactive behaviour. This separation makes the website easier to maintain and update.
+
+ CSS design and layout
+A shared external stylesheet was used so that all pages have a consistent appearance. The stylesheet controls:
+Page layout
+Navigation
+Product cards
+Buttons
+Forms
+Images
+Lightbox overlays
+Colour scheme
+Typography
+Mobile layout
+Spacing and alignment
+A responsive product-card layout was created with CSS Grid:
+
+JavaScript functionality
+JavaScript was used to make the website dynamic. The main JavaScript functionality included:
+Product selection notifications
+Image lightbox functionality
+Search and filtering
+Form validation
+Form submission
+Dynamic product information
+URL parameter handling
+Interactive map support
+External JavaScript files were used instead of placing large amounts of JavaScript directly inside the HTML documents.
+Product selection
+When a visitor clicks the Select for Purchase button, JavaScript reads the product information stored in the button’s data attributes
