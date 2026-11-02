@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /Home.html
+Allow: /Products.html
+Allow: /AboutUS.html
+Allow: /Repairs.html
+Allow: /ServicesOffered.html
+Allow: /Enquiries.html
+
+Sitemap: https://your-domain.co.za/sitemap.xml
+
+<a href="Home.html">Home</a>
+

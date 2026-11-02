@@ -1,51 +1,206 @@
 <!doctype html>
-<!--The Home Page for Zentrix ZA Electronics-->
-<!--The HTML Code is encoded in UTF-8 and Uses a English Language in Standard-->
 <html lang="en">
     <head>
+          <meta
+    property="og:title"
+    content="Electronics and Repairs | ZentrixZA Electronics"
+>
+
+<meta
+    property="og:description"
+    content="Quality electronics, home appliances and reliable
+    repair services from ZentrixZA Electronics."
+>
+
+<meta
+    property="og:type"
+    content="website"
+>
+
+<meta
+    property="og:url"
+    content="https://www.example.com/Products.html"
+>
+
+<meta
+    property="og:image"
+    content="https://www.example.com/images/zae-image15.jpg"
+>
         <meta charset="UTF-8">
-         <!--The following tag for viewport is used for adption in different website-->
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        <title>Repairs</title>
+          <title>Repairs | ZentrixZA Electronics</title>
+               <meta
+        name="description"
+        content="Learn about ZentrixZA Electtronics on thier repair services and how to get your devices and home appliances repaired.">
+         <meta name="author" content="Boikanyo Motshwane">
+         <meta name="keywords" content="repair services, device repairs, home appliance repairs, South Africa">
+    
+          <!--
+    REPAIRS PAGE
+    This page provides information about the repair services
+    offered by ZentrixZA Electronics.
+-->
+
+<!--
+    Links this webpage to the shared stylesheet.
+    Using one external CSS file keeps the design consistent
+    across all webpages.
+-->
+            <link rel="stylesheet" href="CSS/StylingSheets.css">
     </head>
-     <!--The Body of the Home Page in the backgroud color of brown in the form of a hex code-->
-    <body style="background-color: #BB8D6F;">
-        <header>
-            <nav> <div class="logo">
-            <center>
-           <img src="images/zae image15.jpg" style="width: 95px;height:80px;">
-            </center>
-             <!--The Website of the Zentrix ZA Electronics has a navigation bar and a class logo-->
-             <!--The following tags in which are tags of div and navigation are providing links to navigate throug the website-->
-              <div align="left">
-              </div>
-            <!--The following tags are used to navigate through the webpages in order to access different sections of the website-->
-              <a href="Home.html">Home</a>
-              <a href="AboutUS.html">AboutUS</a>
-              <a href="Products.html">Products</a>
-              <a href="Repairs.html">Repairs</a>
-              <a href="ServicesOffered.html">ServicesOffered</a>
-            </nav>
-        </header>
-        <main>
-            <h1><b><center>Welcome to Zentrix ZA Electronics Store Front South Africa</center></b></h1>
-            <h4><u><center>More than Repairs,Honest Service</center></u></h4>
-              <hr></hr>
-            <h3><b><center>Welcome to the Repairs Page</center></b></h3>
-             <center>
-           <img src="images/images.jpg" style="width: 95px;height:80px;">
-            </center>
-            <h4><b><center>What we offer in repairing your devices or home appliances</center></b></h4> 
-            <p><center>We also offer repairs for devices that are out of warranty or Service plan for any damage that may be caused on the device on any product that is sold on the Zentrix ZA Electronic Store or the physical store or on any third party manufacturer. Plan dependent on the insurance plan and cover term for the device or electronics covered</center></p> 
-           <h4><center>Minimum Year of the reparability on the device or any products offered by Zentrix ZA or any third party Manufacturer</center></h4>
-            <p><center>Table of the Minimum Year of repairing devices and home appliances</center></p> 
-            <h1><b><center>Minimum Year of Reparability</center></b></h1>
-            <!--Topic for the tables that are being built-->
-            <h1><b><center>Electronics Devices Range:</center></b></h1>
-            <!--The tables tags were used to feature the products in a table format-->
-            <table border="2" align="center">
+    <body>
+        <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js">
+</script>
+
+<script src="JavaScript/aboutUS-jquery.js"></script>
+
+
+<header class="topbar">
+
+    <div class="brand-box">
+
+         <img src="images/zae image15.jpg" style="width: 231px;height:200px;"
+             alt="ZentrixZA Electronics Logo">
+
+    </div>
+
+    <div class="site-title">
+       <h1><b><center>ZentrixZA Electronics</center></b></h1>
+        <p><b><center>More than Repairs, Honest Service</center></b></p>
+    </div>
+
+    <div class="top-icons">
+<!--
+    SIDEBAR NAVIGATION
+    Allows users to navigate between the different pages.
+-->
+    <a href="Enquiries.html"
+           class="icon-link">
+            <h1>♧</h1>
+        </a>
+
+        <a href="Home.html"
+           class="icon-link">
+           <h1>⌂</h1>
+        </a>
+
+        <a href="AboutUS.html"
+           class="icon-link">
+            <h1>◉</h1>
+        </a>
+
+        <a href="Enquiries.html"
+           class="icon-link">
+            <h1>⚒</h1>
+        </a>
+
+    </div>
+
+</header>
+
+<aside class="sidebar">
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="Home.html">
+                    HOME
+                </a>
+            </li>
+
+            <li>
+                <a href="Products.html">
+                    PRODUCTS
+                </a>
+            </li>
+
+            <li>
+                <a href="Repairs.html"
+                   class="active">
+                    REPAIRS
+                </a>
+            </li>
+
+            <li>
+                <a href="ServicesOffered.html">
+                    SERVICES<br>OFFERED
+                </a>
+            </li>
+
+            <li>
+                <a href="AboutUS.html">
+                    ABOUT US
+                </a>
+            </li>
+
+            <li>
+                <a href="Enquiries.html">
+                    ENQUIRIES
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</aside>
+
+
+<main class="main-content">
+
+<!--
+    MAIN REPAIRS CONTENT
+    Contains information about available repair services.
+-->
+    <section class="page-heading">
+
+         <section class="content-panel">
+
+        <h1>
+             <b><center> Repair Services</center></b>
+        </h1>
+  
+        <h2 class="section-title">
+
+            <b><center>What We Offer in Repairing</center></b>
+            <b><center>Your Devices or Home Appliances</center></b>
+
+        </h2>
+              <center>
+        <img class="center-image"
+             src="images/images.jpg"
+             alt="Device repair"
+             style="width: 255px;height:200px;">
+                 </center>
+        <p class="section-text">
+
+           <b><center>We also offer repairs for devices
+            that are out of warranty or service
+            plan for any damage that may be
+            caused on the device. </center></b>
+
+        </p>
+
+    <h1 class="section-title">
+ <!--
+        REPAIR SERVICES TABLE
+        The table organises repair-related information into
+        rows and columns so that users can easily compare services.
+    -->
+         <b><center>Electronics Devices Range:</center></b>
+
+    </h1>
+     <section class="content-panel">
+
+    <div class="table-wrap">
+
+        <table class="data-table">
+
+            <table border="5" table class="center-table">
                 <tr>
-                    <!--The table Row entailing the what is required-->
                     <th>Device Type</th>
                     <th>Minimum Year</th>
                     <th>Price Range</th>
@@ -99,13 +254,22 @@
                     <td>R1750-R9750</td>
                     <td>Plan Dependent on Selected Insurances</td>
                 </tr>
+            </Section>
             </table>
-              <!--Topic for the tables that are being built-->
-            <h1><b><center>Home Appliances Range:</center></b></h1>
-            <!--The tables tags were used to feature the products in a table format-->
-            <table border="2"  align="center">
+    </div>
+
+
+        <h1 class="section-title">
+
+              <b><center>Home Appliances Range:</center></b>
+    </h1>
+
+
+    <div class="table-wrap">
+
+        <table class="data-table">
+            <table border="5" table class="center-table">
                 <tr>
-                 <!--The table Row entailing the what is required-->
                     <th>Home Appliances</th>
                     <th>Minimum Year</th>
                     <th>Price Range</th>
@@ -160,12 +324,19 @@
                     <td>Plan Dependent on Selected Insurances</td>
                 </tr>
             </table>
-             <!--Topic for the tables that are being built-->
-            <h2><b><center>Our approved insurance selected parthners:</center></b></h2>
-            <!--The tables tags were used to feature the products in a table format-->
-            <table  border="2"  align="center">
+    </div>
+
+
+    <section class="content-panel">
+
+        <h1 class="section-title">
+
+            <b><center>Our Approved Insurance Selected Partners:</center></b>
+
+        </h1>
+        <td class="location-list">
+            <table  border="5" table class="center-table">
                 <tr>
-                 <!--The table Row entailing the what is required-->
                     <td>Insurance Partner 1</td>
                     <td>King Price Insurance</td>
                     <td>Approved for repairing home appliances</td>
@@ -190,12 +361,35 @@
                     <td>Techsured</td>
                     <td>Approved for repairing devices</td>
                 </tr>
+                <p>
+            We hope your devices and home appliances remain
+            in the best possible condition after our technicians
+            complete the repair.
+        </p>
                 <br>
             </table>
-            <h4><b><center>Tsc and Cs Apply &copy;</center></b></h4>
-            <p><center>We Hope the devices and home appliances will always be in the best condition once our technicians have completed the repair and we hope you enjoy and to explore more on ZentrixZA Electronics Storefront South Africa</center></p>
-          </main>
-           <!--The following tags were used to feature a footer to display the copyright information and student number at hand-->
-          <footer  align="center">&copy; (ST10519905) 2026 ZentrixZA Electronics. All rights reserved.</footer>
-    </body>
+    </section>
+</main>
+<!--
+        CUSTOMER INFORMATION
+        Provides additional information about the repair service.
+    -->
+
+<footer class="footer">
+
+    <p>
+        <strong>T&Cs Apply &copy;</strong>
+    </p>
+
+    <p>
+        &copy; (ST10519905) 2026 ZentrixZA Electronics.
+        All rights reserved.
+    </p>
+
+</footer>
+
+<script src ="JavaScript/script.js" defer></script> 
+</body>
+
 </html>
+       
