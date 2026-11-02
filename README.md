@@ -318,3 +318,38 @@ Interactive map support
 External JavaScript files were used instead of placing large amounts of JavaScript directly inside the HTML documents.
 Product selection
 When a visitor clicks the Select for Purchase button, JavaScript reads the product information stored in the button’s data attributes
+
+Performance optimisation
+Partially Improved
+
+References 
+
+References 
+Google (n.d.) Robots.txt introduction and guide. Available at: https://developers.google.com/search/docs/crawling-indexing/robots/intro (Accessed: 2 November 2026).
+Google (n.d.) What is a sitemap? Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview (Accessed: 2 November 2026).
+Google (n.d.) Build and submit a sitemap. Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap (Accessed: 2 November 2026).
+Google (n.d.) JavaScript SEO basics. Available at: https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics (Accessed: 2 November 2026).
+Google (n.d.) Search engine optimisation starter guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 2 November 2026).
+Google (n.d.) Core Web Vitals and page experience. Available at: https://developers.google.com/search/docs/appearance/page-experience (Accessed: 2 November 2026).
+Google (n.d.) PageSpeed Insights. Available at: https://pagespeed.web.dev/ (Accessed: 2 November 2026).
+jQuery (n.d.) jQuery: Write less, do more. Available at: https://jquery.com/ (Accessed: 2 November 2026).
+Leaflet (n.d.) Leaflet: JavaScript library for interactive maps. Available at: https://leafletjs.com/ (Accessed: 2 November 2026).
+Mozilla (2026) Client-side form validation. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation (Accessed: 2 November 2026).
+Mozilla (2026) Using HTML form validation and the Constraint Validation API. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation (Accessed: 2 November 2026).
+Mozilla (n.d.) The <form> HTML element. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form (Accessed: 2 November 2026).
+Mozilla (n.d.) The <input> HTML element. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input (Accessed: 2 November 2026).
+Mozilla (2026) Content Security Policy. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP (Accessed: 2 November 2026).
+Mozilla (n.d.) Using HTTP cookies. MDN Web Docs. Available at: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies (Accessed: 2 November 2026).
+Google (n.d.) Image performance. web.dev. Available at: https://web.dev/learn/performance/image-performance (Accessed: 2 November 2026).
+Google (n.d.) Lazy-load images and iframe elements. web.dev. Available at: https://web.dev/learn/performance/lazy-load-images-and-iframe-elements (Accessed: 2 November 2026).
+OWASP Foundation (n.d.) Input validation cheat sheet. OWASP Cheat Sheet Series. Available at: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html (Accessed: 2 November 2026).
+OWASP Foundation (n.d.) HTTP headers cheat sheet. OWASP Cheat Sheet Series. Available at: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html (Accessed: 2 November 2026).
+OWASP Foundation (n.d.) Content security policy cheat sheet. OWASP Cheat Sheet Series. Available at: https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html (Accessed: 2 November 2026).
+OWASP Foundation (n.d.) Cross-site scripting prevention cheat sheet. OWASP Cheat Sheet Series. Available at: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html (Accessed: 2 November 2026).
+W3C (n.d.) Labeling controls. Web Accessibility Initiative Forms Tutorial. Available at: https://www.w3.org/WAI/tutorials/forms/labels/ (Accessed: 2 November 2026).
+W3C (n.d.) Validating input. Web Accessibility Initiative Forms Tutorial. Available at: https://www.w3.org/WAI/tutorials/forms/validation/ (Accessed: 2 November 2026).
+W3C (n.d.) Providing instructions. Web Accessibility Initiative Forms Tutorial. Available at: https://www.w3.org/WAI/tutorials/forms/instructions/ (Accessed: 2 November 2026).
+W3C (2023) Web Content Accessibility Guidelines (WCAG) 2.2. Available at: https://www.w3.org/TR/WCAG22/ (Accessed: 2 November 2026).
+Formspree (n.d.) Building an HTML form. Available at: https://help.formspree.io/articles/building-your-form/building-an-html-form (Accessed: 2 November 2026).
+Formspree (n.d.) Submit forms with JavaScript using AJAX. Available at: https://help.formspree.io/articles/building-your-form/submit-forms-with-javascript-ajax/ (Accessed: 2 November 2026).
+WHATWG (n.d.) HTML Living Standard. Available at: https://html.spec.whatwg.org/ (Accessed: 2 November 2026).
